@@ -1,11 +1,15 @@
 import React from 'react';
 
+/***** Components *****/
+import Input from './components/Input'
+
+/***** CSS *****/
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello</h1>
+    <div className="app">
+      <Input />
     </div>
   );
 }
